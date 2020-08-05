@@ -8,8 +8,9 @@ int main() {
   char name[8];
 
   printf("Who are you?\n");
+  printf(">");
   scanf("%s",&name);
-  printf(">%s\n",name);
+  printf("Hello,%s!\n",name);
   printf("Tossing a coin...\n");
 
   for(i=0;i<3;i++) {
