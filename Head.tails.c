@@ -5,7 +5,12 @@ int main() {
 
   int h=0,t=0;
   int i,r;
+  char name[8];
 
+  printf("Who are you?\n");
+  printf(">");
+  scanf("%s",&name);
+  printf("Hello,%s!\n",name);
   printf("Tossing a coin...\n");
 
   for(i=0;i<3;i++) {
