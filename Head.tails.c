@@ -5,7 +5,11 @@ int main() {
 
   int h=0,t=0;
   int i,r;
+  char name[8];
 
+  printf("Who are you?\n");
+  scanf("%s",&name);
+  printf(">%s\n",name);
   printf("Tossing a coin...\n");
 
   for(i=0;i<3;i++) {
