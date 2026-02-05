@@ -29,6 +29,8 @@ int main() {
   if(h>=t) printf("%s won\n",name);
   else printf("%s lost\n",name);
 
+  printf("Hello World!");
+
   return 0;
 
 }
